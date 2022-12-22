@@ -1,8 +1,3 @@
-# auto rclone
-#
-# Author Telegram https://t.me/CodyDoby
-# Inbox  codyd@qq.com
-#
 # can copy from
 # - [x] publicly shared folder to Team Drive
 # - [x] Team Drive to Team Drive
@@ -39,8 +34,8 @@ CNT_SA_EXIT = 3  # if continually switch account for 3 times stop script
 # paramters for rclone.
 # If TPSLIMITxTRANSFERS is too big, will cause 404 user rate limit error,
 # especially for tasks with a lot of small files
-TPSLIMIT = 3
-TRANSFERS = 3
+TPSLIMIT = 8
+TRANSFERS = 8
 # =================modify here=================
 
 
